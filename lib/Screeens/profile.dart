@@ -202,9 +202,9 @@ class ProfilePage extends StatelessWidget {
         height: 10,
       ),
       Text(
-        "A Google Developer Expert for Flutter, Dart & Web Tech.\n"
-            "I am also a youtuber having MTechViral youtube channel\n"
-            "where I make tutorials for technology.",
+        "I am not a developer , Coder or Engineer just a learner.\n"
+        "I completed By BCA(Bachelors in Computer Applications).\n"
+        "I am now learing Dart and Flutter for android and web development.",
         softWrap: true,
         textScaleFactor: 1.5,
         style: TextStyle(color: Colors.white70),
