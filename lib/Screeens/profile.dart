@@ -325,3 +325,4 @@ class SocialInfo extends StatelessWidget {
     );
   }
 }
+
