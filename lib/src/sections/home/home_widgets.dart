@@ -1,5 +1,3 @@
-import 'dart:math' show pi;
-
 import 'package:flutter/material.dart';
 import 'package:port_folio/src/components/typewriter.dart';
 import 'package:port_folio/src/utils/url_helper.dart';
@@ -187,18 +185,15 @@ class HeroImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Transform.rotate(
-      angle: 2 * pi - (pi / 4),
-      child: Container(
-        width: 400,
-        height: 400,
-        decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          color: backgroundColor,
-          border: Border.all(color: borderColor, width: 2),
-          image: DecorationImage(
-            image: AssetImage('assets/images/Dushyant.png'),
-          ),
+    return Container(
+      width: 400,
+      height: 400,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        color: backgroundColor,
+        border: Border.all(color: borderColor, width: 2),
+        image: DecorationImage(
+          image: AssetImage('assets/images/Dushyant.png'),
         ),
       ),
     );
