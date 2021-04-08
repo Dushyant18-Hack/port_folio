@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:port_folio/Screeens/profile.dart';
+import 'package:port_folio/src/components/responsive/layout_wrapper.dart';
 
 void main() {
-  runApp(PortFolio());
+  runApp(MyApp());
 }
 
-class PortFolio extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Dushyant Goyal',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        brightness: Brightness.dark,
-        primaryColorDark: Colors.black,
+        primarySwatch: Colors.teal,
+        fontFamily: 'Ubuntu',
       ),
-      title: "PortFolio",
-      home: ProfilePage(),
-     );
+      home: LayoutWrapper(),
+    );
   }
 }
